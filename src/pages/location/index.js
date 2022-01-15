@@ -47,11 +47,6 @@ export default function guide(prop) {
         </div>
       </div>
     </div>
-    {/* <div className={display ? 'shadow-welcome display' : 'shadow-welcome'}>
-      <div className="inline-block">
-        <p>良辰已定</p>
-        <p>吉日待访</p>
-      </div>
-    </div> */}
+
   </div>);
 }

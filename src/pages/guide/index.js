@@ -11,15 +11,15 @@ export default function guide() {
       <img src={Urls.longer} className="pic" />
       <div>
         <p>爱很简单</p>
-        <p>想起你的微笑</p>
-        <p>就会感到很幸福</p>
+        <p>想起你的如花笑靥，</p>
+        <p>就会感到稳稳的幸福</p>
       </div>
     </div>
     <div className="block bottom">
-      <div>
+      <div className='text'>
         <p>爱很长久</p>
-        <p>想到要和你共度余生</p>
-        <p>就对余生充满期待</p>
+        <p>想到和你共度余生，</p>
+        <p>就会对余生充满期待</p>
       </div>
       <img src={Urls.couple} className="pic"/>
     </div>  </div>)
