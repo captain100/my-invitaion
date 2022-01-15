@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { baseIndfo, Urls } from '../../common/enum';
 import style from './index.less';
 
+
   /**
     * 根据地图类型、位置获取不同的地图页面跳转链接
     * @param {*} mapType 地图类型

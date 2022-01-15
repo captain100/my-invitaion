@@ -9,18 +9,9 @@ import style from './index.less';
     * @param {*} address 详细地址
     */
 function openApp() {
-  const [lat, lng, address ] = [31.454567, 104.651151, baseIndfo.hotel];
-  // if (!window.WeixinJSBridge || !WeixinJSBridge.invoke) {
-  //   wx.openLocation({
-  //     latitude: s,
-  //     longitude: u,
-  //     address: l,
-  //     name: i
-  //   });
-  // }
+  const [lat, lng, address ] = [41.399392483669196, 119.64826573345945, baseIndfo.hotel];
+
   const url = 'https://apis.map.qq.com/uri/v1/marker?marker=coord:' + lat + ',' +  lng +';addr:'+ address +';title:地址&referer=keyfree'
-  // 'https://uri.amap.com/marker?position='+ lng + ',' + lat +'&name='+ address +'&callnative=1';;
-  // return url;
   window.open(url, 'blank');
 }
 

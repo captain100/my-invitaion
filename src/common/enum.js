@@ -6,7 +6,7 @@ export const eventBus = new EventEmitter();
 export const baseIndfo = {
   man: '邱实',
   woman: '项晓赛',
-  time: '2022.02.22',
+  time: '2022-02-22',
   hotel: '喜宴贵宾楼',
   detailHotel: '辽宁省朝阳市建平县喜宴贵宾楼',
   address: '辽宁省朝阳市'
@@ -17,7 +17,7 @@ const imagesDir ='http://wyy.photowww.com/183new/XTApp/11501/1150120220106005/XT
 export const Urls = {
   top: `${imagesDir}/008.jpg`,
   btm: `${imagesDir}/012.jpg`,
-  icon: 'https://cdn.jsdelivr.net/gh/captain100/mycdn/data/WechatIMG18361.png',
+  icon: './src/assets/welcome-icon.png',
   bridgeRoom: `${imagesDir}/039.jpg`,
   bridge: `${imagesDir}/034.jpg`,
   longer: `${imagesDir}/035.jpg`,

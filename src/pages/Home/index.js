@@ -12,8 +12,7 @@ export default function Home() {
       <div className="title"> 婚礼 </div>
       <div className="sub-title"> 邀请函 </div>
       <div className="major">{baseIndfo.man} & {baseIndfo.woman}</div>
-      <div className="mini-title">国历: {baseIndfo.time}</div>
-      <div className="mini-title">农历：正月二十二</div>
+      <div className="mini-title">{baseIndfo.time}</div>
       <div className="mini-title">{baseIndfo.detailHotel || baseIndfo.hotel}</div>
     </div>
   </div>);
