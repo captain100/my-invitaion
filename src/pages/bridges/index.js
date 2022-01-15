@@ -11,7 +11,7 @@ export default function Bridge(porps) {
       </div>
       <div className="mid-block">
         <img className="photo" src={Urls.bridge} />
-        <p className="bridges">新娘：{baseIndfo.woman}</p>
+        <p className="bridges">{`新娘：${baseIndfo.woman}`}</p>
       </div>
       <div className="bravo bottom">
         <p>你，是途中最美的遇见 </p>

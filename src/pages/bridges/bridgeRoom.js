@@ -13,7 +13,7 @@ export default function Bridge(porps) {
       </div>
       <div className="mid-block">
         <img className="photo" src={Urls.bridgeRoom} />
-        <p className="bridges">新郎：{baseIndfo.man}</p>
+        <p className="bridges">{`新郎：${baseIndfo.man}`}</p>
       </div>
       <div className="bravo bottom">
         <p>你，让所有的风景都有了新意</p>
