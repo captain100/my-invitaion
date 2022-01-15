@@ -11,6 +11,7 @@ import BridgeRoom from './pages/bridges/bridgeRoom';
 import Guide from './pages/guide/index';
 import GuideLast from './pages/guide/guide';
 import Location from './pages/location/index';
+import Photos  from './pages/photos/photos';
 import touchArrow from './components/touch-arrow';
 import './assets/global.less';
 import './assets/animate.less';
@@ -83,7 +84,7 @@ class Root extends React.Component {
         <Route path="/location" exact component={Location} />
         <Route path="/bridge" exact component={Bridge} />
         <Route path="/bridgeRoom" exact component={BridgeRoom} />
-        <Route path="/photos" exact component={BridgeRoom} />
+        <Route path="/photos" exact component={Photos} />
         <Redirect to="/" component={Home} />
       </AnimatedRouter>
     );

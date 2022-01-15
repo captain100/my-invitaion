@@ -16,7 +16,8 @@ function openApp() {
 }
 
 
-export default function guide() {
+export default function guide(prop) {
+  console.log("🚀 ~ file: index.js ~ line 20 ~ guide ~ prop", prop)
   const [display, setDisplay] = useState(false);
   useEffect(() => {
     setTimeout(() => {
@@ -26,11 +27,13 @@ export default function guide() {
   
   return (
   <div className={style.Location}>
+    <div className='photos-btn' onClick={() => prop.history.push('/photos')}>相册</div>
+
     <img className="back" src={Urls.welcome} />
     <div className="btm">
       <div className="info">
         <div className="address-block">
-          <p className="wel">Welcome to our weddding</p>
+          <p className="wel">良辰已定，吉日待访</p>
           <h4 className="tx-c">
             婚礼地址
           </h4>
@@ -44,13 +47,11 @@ export default function guide() {
         </div>
       </div>
     </div>
-    <div className={display ? 'shadow-welcome display' : 'shadow-welcome'}>
+    {/* <div className={display ? 'shadow-welcome display' : 'shadow-welcome'}>
       <div className="inline-block">
-        <p>沉浸在幸福中的我们</p>
-        <p>即将举行婚礼</p>
-        <p>邀请您及您的家人</p>
-        <p>共同见证,举杯畅饮</p>
+        <p>良辰已定</p>
+        <p>吉日待访</p>
       </div>
-    </div>
+    </div> */}
   </div>);
 }

@@ -10,17 +10,16 @@ export default function guide() {
     <div className="block top">
       <img src={Urls.longer} className="pic" />
       <div>
-        <p>只因人群中多看了</p>
-        <p>你一眼</p>
-        <p>从此便无法忘记</p>
-        <p>你的脸</p>
+        <p>爱很简单</p>
+        <p>想起你的微笑</p>
+        <p>就会感到很幸福</p>
       </div>
     </div>
     <div className="block bottom">
       <div>
-        <p>从相遇相识到相知</p>
-        <p>许是上天垂怜</p>
-        <p>让我遇见了你</p>
+        <p>爱很长久</p>
+        <p>想到要和你共度余生</p>
+        <p>就对余生充满期待</p>
       </div>
       <img src={Urls.couple} className="pic"/>
     </div>  </div>)

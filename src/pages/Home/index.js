@@ -9,8 +9,8 @@ export default function Home() {
     <img className="background bottom" src={Urls.btm} />
     <div className="invite-block">
       <img className="welcome-icon" src={Urls.icon} />
-      <div className="title"> 婚礼 </div>
-      <div className="sub-title"> 邀请函 </div>
+      {/* <div className="title"> 婚礼 </div> */}
+      <div className="sub-title"> 喜邀 </div>
       <div className="major">{baseIndfo.man} & {baseIndfo.woman}</div>
       <div className="mini-title">{baseIndfo.time}</div>
       <div className="mini-title">{baseIndfo.detailHotel || baseIndfo.hotel}</div>

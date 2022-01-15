@@ -8,17 +8,16 @@ export default function Bridge(porps) {
   <div className={style.Bridge}>
     <div>
       <div className="bravo top">
-        <p>　　One day you and I sit in front of the court</p>
-        <p className="ml-20">old age, flowers fall, a life time.</p>
+
+        <p className="ml-20">我们都在路途中寻找自己</p>
       </div>
       <div className="mid-block">
         <img className="photo" src={Urls.bridgeRoom} />
-        <p className="bridges">新郎：{baseIndfo.man}</p>
-        <p className="tips">INVITATION LETTER</p>
+        <p className="bridges">
+          <span className='title'>新郎：</span>{baseIndfo.man}</p>
       </div>
       <div className="bravo bottom">
-        <p>...百日不到处,青春恰自来。</p>
-        <p className="ml-20">苔花如米小,也学牡丹开。</p>
+        <p>你，让所有的风景都有了新意</p>
       </div>
     </div>
   </div>);
