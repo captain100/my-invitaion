@@ -34,9 +34,9 @@ export default function guide(prop) {
       <div className="info">
         <div className="address-block">
           <p className="wel">良辰已定，吉日待访</p>
-          <h4 className="tx-c">
+          {/* <h4 className="tx-c">
             婚礼地址
-          </h4>
+          </h4> */}
           <div className="detail">
             <span>{baseIndfo.address}-{baseIndfo.hotel}</span>
             <div onClick={openApp} className="navigation">

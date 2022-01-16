@@ -24,6 +24,5 @@ export const Urls = {
   couple: `${imagesDir}/036.jpg`,
   knee: `${imagesDir}/023.jpg`,
   hug: `${imagesDir}/021.jpg`,
-  map: 'https://doddle.oss-accelerate.aliyuncs.com/strong/map.jpeg',
   welcome: `${imagesDir}/044.jpg`,
 }
